@@ -2,6 +2,44 @@
   text-align: center;
 }
 
+.portfolio-bar {
+  position: fixed; /* Fixes the element in place */
+  top: 0; /* Positions it at the top of the page */
+  left: 0; /* Aligns it to the left edge of the page */
+  width: 100%; /* Ensures the bar spans the full width of the viewport */
+  background-color: #fff; /* Background color (optional, based on your design) */
+  z-index: 1000; /* Ensures the bar stays on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  background-color: #d9dce2;
+  font-size: 24px;
+  align-items: center;
+  text-align: left; /* Aligns the text to the left */
+  color:#574e4e;  
+  justify-content: space-between;
+  /*font-weight: bold;*/
+  font-family:sans-serif;
+}
+
+.portfolio-bar p {
+  margin: 0; /* Removes any default margins from the <p> tag */
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons {
+  padding: 10px 20px;
+  font-size: 24px;
+  display: flex;
+  gap: 20px; /* Adds spacing between icons */
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: inherit; /* Ensures the links have no underline and inherit color */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +74,4 @@
     transform: rotate(360deg);
   }
 }
+
