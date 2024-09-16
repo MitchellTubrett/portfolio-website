@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  background-image: url('D:\Projects\portfolio-website\my-portfolio\src\assets\images\Cb1.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Ensures the image doesn’t repeat */
+  height: 100vh;
 }
 
 .portfolio-bar {
