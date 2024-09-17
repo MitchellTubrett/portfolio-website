@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import profileImage from './assets/images/headshot.jpg'; // Import your image
 
 function App() {
   const name = "Mitchell Tubrett";
@@ -25,9 +25,17 @@ function App() {
           </div>
                       
         </div>
-      </div>  
+      </div>
+
+      <div className="profile-image-container">
+         <img src={profileImage} alt="Mitchell Tubrett" className="profile-image" />
+         <div>
+         <a>Developer, Analyst</a>
+         </div>         
+       </div>  
+
       <div className="page-content">
-            <h1>Welcome to My Portfolio</h1>
+            <h1>About Me</h1>
             <p>This is where new content can be added below the background.</p>
             <p>Additional sections can go here.</p>
         </div>     

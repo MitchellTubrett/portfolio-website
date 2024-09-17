@@ -16,6 +16,15 @@
   background-color: white;
   padding: 40px;
   height: 100vh;
+  font-family:sans-serif;
+}
+
+.profile-image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the image */
+  z-index: 10; /* Ensure the image is above the background */
 }
 
 .portfolio-bar {
