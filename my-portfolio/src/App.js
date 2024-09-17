@@ -52,7 +52,16 @@ function App() {
           </div> 
           <div className="profile-image-text">
             <a>Developer, Analyst</a>
-          </div>         
+          </div> 
+          <div className="social-icons-two">
+            <a href={linkedIn_link} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href={github_link} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>          
+          </div>
+        
        </div>  
       <div className="page-content">
             <h1>About Me</h1>

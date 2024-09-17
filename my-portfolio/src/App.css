@@ -49,7 +49,7 @@
   justify-content: center;
   margin-left: 90px;
   font-size: 24px;
-  margin-top: 150px;
+  
 }
 
 .profile-image-name {
@@ -101,6 +101,21 @@
   font-size: 24px;
   display: flex;
   gap: 20px; /* Adds spacing between icons */
+}
+
+.social-icons-two {
+  padding: 10px 20px;
+  font-size: 80px;
+  margin-left: 100px;
+  display: flex;
+  gap: 20px; /* Adds spacing between icons */
+  color: white;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.social-icons-two a:visited {
+  color: white; /* Ensures visited links remain white */
 }
 
 .social-icons a {
