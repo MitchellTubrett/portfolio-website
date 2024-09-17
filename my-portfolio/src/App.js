@@ -22,18 +22,18 @@ function App() {
             <a href={github_link} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>          
-          </div>
-                      
+          </div>                      
         </div>
       </div>
-
       <div className="profile-image-container">
-         <img src={profileImage} alt="Mitchell Tubrett" className="profile-image" />
-         <div>
-         <a>Developer, Analyst</a>
-         </div>         
+         {/* <img src={profileImage} alt="Mitchell Tubrett" className="profile-image" /> */}
+         <div className="profile-image-name">
+            <a>Mitchell Tubrett</a>
+          </div> 
+          <div className="profile-image-text">
+            <a>Developer, Analyst</a>
+          </div>         
        </div>  
-
       <div className="page-content">
             <h1>About Me</h1>
             <p>This is where new content can be added below the background.</p>
