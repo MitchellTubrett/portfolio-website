@@ -12,6 +12,21 @@
   align-items: center;
 }
 
+.footer {
+  background-color: #d9dce2; /* Dark background */
+  color:#574e4e;
+  text-align: center; /* Center the text */
+  padding: 20px 0; /* Add padding */
+  position: relative; /* Ensure it's positioned after the content */
+  bottom: 0;
+  width: 100%;
+  font-size: 14px; /* Font size for footer */
+  justify-content: space-between;
+  /*font-weight: bold;*/
+  font-family:sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .page-content {
   background-color: white;
   padding: 40px;
@@ -53,7 +68,7 @@
   width: 100%; /* Ensures the bar spans the full width of the viewport */
   background-color: #fff; /* Background color (optional, based on your design) */
   z-index: 1000; /* Ensures the bar stays on top of other content */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
   padding: 10px;
   display: flex;
   background-color: #d9dce2;
@@ -62,14 +77,23 @@
   text-align: left; /* Aligns the text to the left */
   color:#574e4e;  
   justify-content: space-between;
-  /*font-weight: bold;*/
   font-family:sans-serif;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  background-color: transparent; /* Initially transparent */
+  z-index: 1000;
+  color: white; /* White text when transparent */
+  color: transparent;
 }
 
 .portfolio-bar p {
   margin: 0; /* Removes any default margins from the <p> tag */
   display: flex;
   gap: 10px;
+}
+
+.portfolio-bar.scrolled {
+  background-color: #d9dce2; /* Dark bar when scrolled */
+  color: black; /* Change text to black when scrolled */
 }
 
 .social-icons {
