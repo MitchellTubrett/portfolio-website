@@ -2,7 +2,8 @@
 
 }
 .background-content{
-  background-image: url('D:\Projects\portfolio-website\my-portfolio\src\assets\images\Cb1.jpg'); /* Path to your image */
+  /* BE SURE TO CHANGE BACK URL PATH TO D:\PROJECTS\PORTFOLIO .. WHATEVER PATH ON LOCAL PC*/
+  background-image: url('C:\Users\mitchell_t\Documents\Projects\portfolio\portfolio-website\my-portfolio\src\assets\images\Cb1.jpg'); /* Path to your image */
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Ensures the image doesn’t repeat */
