@@ -115,8 +115,21 @@
   margin-top: 100px;
 }
 
+.social-icons-two a {
+  color: white; /* Ensures the links are white */
+  text-decoration: none; /* Removes the underline */
+}
+
 .social-icons-two a:visited {
-  color: white; /* Ensures visited links remain white */
+  color: white; /* Ensures visited links stay white */
+}
+
+.social-icons-two a:hover {
+  color: white; /* Optional: Keeps hover color white */
+}
+
+.social-icons-two a:active {
+  color: white; /* Optional: Keeps active color white */
 }
 
 .social-icons a {
