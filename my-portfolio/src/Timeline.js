@@ -23,22 +23,14 @@ const Timeline = () => {
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2010"
+        date="2010 - 2017"
         iconStyle={{ background: "#007bff", color: "#fff" }}
         icon={<FaBriefcase />}
       >
-        <h3 className="vertical-timeline-element-title">Server , Bartender</h3>
-        <p>Started my first job as a server / bartender while I attended St. Thomas University.</p>
-      </VerticalTimelineElement>
-
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="2013"
-        iconStyle={{ background: "#007bff", color: "#fff" }}
-        icon={<FaBriefcase />}
-      >
-        <h3 className="vertical-timeline-element-title">Key holder, Manager</h3>
-        <p>After being in the industry a few years while going through school I became a Manager at different Montana's around NB / NS</p>
+        <h3 className="vertical-timeline-element-title">Hospitality Management</h3>
+        <p>Initially out of school I went to the university of St. Thomas where I picked up a position as a server. Over the next few years I transitioned to Bartender, to Keyholder,
+            to Manager. I managed both the Kitchen and Bar at different establishments, with the main one being the franchise Montana's.
+        </p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -59,7 +51,7 @@ const Timeline = () => {
         className="vertical-timeline-element--work"
         date="2019"
         iconStyle={{ background: "#ff4500", color: "#fff" }}
-        icon={<FaBriefcase />}
+        icon={<FaGraduationCap />}
       >
         <h3 className="vertical-timeline-element-title">
           NSCC
@@ -71,7 +63,7 @@ const Timeline = () => {
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2019"
+        date="2021"
         iconStyle={{ background: "#ff4500", color: "#fff" }}
         icon={<FaBriefcase />}
       >
@@ -79,7 +71,22 @@ const Timeline = () => {
           NSCC
         </h3>
         <p>
-          I began my education at NSCC for the programming distinction.
+          Graduated from NSCC with a diploma in IT-Programming with distinction
+        </p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2021"
+        iconStyle={{ background: "#ff4500", color: "#fff" }}
+        icon={<FaBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Pineapple Bytes - Junior developer & Analyst
+        </h3>
+        <p>
+          I was initially hired as an Analyst out of school by Pineapple Bytes who made me a developer. I worked on integrations with Aloha and Counterpoint. I built different
+          plugins that ran reports on their databases, customer reset functions, and general efficiency improvements through scripting and automation.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

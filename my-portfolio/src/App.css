@@ -49,7 +49,7 @@ main {
   color: rgb(8, 8, 8);  /* Sets the text color */
   text-align: center;  /* Centers the text */
   padding: 10px 0;  /* Adds padding for a better visual */
-  margin-top: 50px;
+  margin-top: 300px;
   font-size: 14px;  /* Adjust font size as needed */
 }
 
