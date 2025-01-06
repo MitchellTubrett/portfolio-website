@@ -11,14 +11,14 @@ const Timeline = () => {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
-        date="2005"
+        date="2009"
         iconStyle={{ background: "#333", color: "#fff" }}
         icon={<FaGraduationCap />}
       >
         <h3 className="vertical-timeline-element-title">
           Finished High School
         </h3>
-        <p>Completed my high school education.</p>
+        <p>Completed my high school education at Sackville High School</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -27,34 +27,45 @@ const Timeline = () => {
         iconStyle={{ background: "#007bff", color: "#fff" }}
         icon={<FaBriefcase />}
       >
-        <h3 className="vertical-timeline-element-title">First Job</h3>
-        <p>Started my first job as an IT Support Technician.</p>
+        <h3 className="vertical-timeline-element-title">Server , Bartender</h3>
+        <p>Started my first job as a server / bartender while I attended St. Thomas University.</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2015"
+        date="2013"
+        iconStyle={{ background: "#007bff", color: "#fff" }}
+        icon={<FaBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">Key holder, Manager</h3>
+        <p>After being in the industry a few years while going through school I became a Manager at different Montana's around NB / NS</p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2017"
         iconStyle={{ background: "#28a745", color: "#fff" }}
         icon={<FaBriefcase />}
       >
         <h3 className="vertical-timeline-element-title">
-          Promoted to Team Lead
+          Account Manager - Xerox
         </h3>
-        <p>Led a team of technicians to achieve company goals.</p>
+        <p>After a few years in the service industry I was approached by someone who works at a reseller of Xerox in Nova Scotia. They brought me on as an account manager for the Dartmouth
+            territory.
+        </p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2020"
+        date="2019"
         iconStyle={{ background: "#ff4500", color: "#fff" }}
         icon={<FaBriefcase />}
       >
         <h3 className="vertical-timeline-element-title">
-          Became System Administrator
+          NSCC
         </h3>
         <p>
-          Transitioned to a System Administrator role, specializing in Windows
-          systems.
+          I began my education at NSCC for the programming distinction.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

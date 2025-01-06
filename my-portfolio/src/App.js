@@ -9,7 +9,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
-import Timeline from "./Timeline";
+import Timeline from './Timeline';
 
 
 
@@ -39,66 +39,70 @@ function App() {
 
 
   return (
-    <div className="App">   
-      <div className="background-content">
-        <div className={`portfolio-bar ${isScrolled ? 'scrolled' : ''}`}>
-        <p>
-            {name} 
-        </p>
-         
-          <div className="social-icons">
-            <a href="about-section">Home</a> 
-            <a href="about-section">About</a> 
-            <a href="about-section">Timeline</a>
-            <a href="about-section">CV</a>
-            <a href="about-section">Contact</a>            
-            <a href={linkedIn_link} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href={github_link} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>   
-          </div>                      
-        </div>
-      </div>
-      <div className="profile-image-container">
-         {/* <img src={profileImage} alt="Mitchell Tubrett" className="profile-image" /> */}
-         <div className="profile-image-name">
-            <a>Mitchell Tubrett</a>
-          </div> 
-          <div className="profile-image-text">
-            <a>Developer, Analyst</a>
-          </div> 
-          <div className="social-icons-two">
-            <a href={linkedIn_link} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href={github_link} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>          
+    <div className="App">
+      <main>   
+        <div className="background-content">
+          <div className={`portfolio-bar ${isScrolled ? 'scrolled' : ''}`}>
+          <p>
+              {name} 
+          </p>
+          
+            <div className="social-icons">
+              <a href="about-section">Home</a> 
+              <a href="about-section">About</a> 
+              <a href="about-section">Timeline</a>
+              <a href="about-section">CV</a>
+              <a href="about-section">Contact</a>            
+              <a href={linkedIn_link} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a href={github_link} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>   
+            </div>                      
           </div>
-        
-       </div>  
-      <div className="page-content">
-            <div className="about-section">
-              <h1>Hey there,</h1>
-              <p>
-                I'm Mitch. A computer enthusiast, avid fantasy book reader, enjoyer of video games, and guitar player who has an insatiable desire for continued learning. I finished up
-                my education back in 2021 and have been in the tech field now for about 4 years (5 If you consider my co op experience, which I do). I've spent time in both development
-                and analyst positions with a wide variety of expertise and exposure to different technologies. Below here you'll see a timeline of my professional career, my CV,
-                completed and upcoming projects. If you want to chat about potential opportunities for work, inquire about my projects or just reach out to ask me some questions
-                you can find me through my LinkedIn page, or through the contact me portion of this site.
-              </p>
-            </div>
-            <p>Additional sections can go here.</p>
-            <section id="career-timeline">
-              <h2>My Career Timeline</h2>
-              <Timeline />
-            </section>         
         </div>
-          <footer className="footer">
-            <p>© 2024 Mitchell Tubrett | All Rights Reserved</p>
-          </footer>                   
+        <div className="profile-image-container">
+          {/* <img src={profileImage} alt="Mitchell Tubrett" className="profile-image" /> */}
+          <div className="profile-image-name">
+              <a>Mitchell Tubrett</a>
+            </div> 
+            <div className="profile-image-text">
+              <a>Developer, Analyst</a>
+            </div> 
+            <div className="social-icons-two">
+              <a href={linkedIn_link} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a href={github_link} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>          
+            </div>
+          
+        </div>  
+        <div className="page-content">
+              <div className="about-section">
+                <h1>Hey there,</h1>
+                <p>
+                  I'm Mitch. A computer enthusiast, avid fantasy book reader, enjoyer of video games, and guitar player who has an insatiable desire for continued learning. I finished up
+                  my education back in 2021 and have been in the tech field now for about 4 years (5 If you consider my co op experience, which I do). I've spent time in both development
+                  and analyst positions with a wide variety of expertise and exposure to different technologies. Below here you'll see a timeline of my professional career, my CV,
+                  completed and upcoming projects. If you want to chat about potential opportunities for work, inquire about my projects or just reach out to ask me some questions
+                  you can find me through my LinkedIn page, or through the contact me portion of this site.
+                </p>
+              </div>
+              <p>Additional sections can go here.</p>
+              <section id="career-timeline">
+                <h2>My Career Timeline</h2>
+                <Timeline />
+              </section>     
+          </div>
+          </main>
+          
+
+            <footer className="footer">
+              <p>© 2024 Mitchell Tubrett | All Rights Reserved</p>
+            </footer>
     </div>         
   );
 }
