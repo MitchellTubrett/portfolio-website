@@ -68,6 +68,20 @@ const Timeline = () => {
           I began my education at NSCC for the programming distinction.
         </p>
       </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2019"
+        iconStyle={{ background: "#ff4500", color: "#fff" }}
+        icon={<FaBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          NSCC
+        </h3>
+        <p>
+          I began my education at NSCC for the programming distinction.
+        </p>
+      </VerticalTimelineElement>
     </VerticalTimeline>
   );
 };

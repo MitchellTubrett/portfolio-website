@@ -91,14 +91,13 @@ function App() {
                   you can find me through my LinkedIn page, or through the contact me portion of this site.
                 </p>
               </div>
-              <p>Additional sections can go here.</p>
               <section id="career-timeline">
                 <h2>My Career Timeline</h2>
                 <Timeline />
               </section>     
           </div>
           </main>
-          
+
 
             <footer className="footer">
               <p>© 2024 Mitchell Tubrett | All Rights Reserved</p>
