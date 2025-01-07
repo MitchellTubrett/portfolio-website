@@ -23,7 +23,7 @@ const Timeline = () => {
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2010 - 2017"
+        date="2010"
         iconStyle={{ background: "#007bff", color: "#fff" }}
         icon={<FaBriefcase />}
       >
@@ -40,9 +40,9 @@ const Timeline = () => {
         icon={<FaBriefcase />}
       >
         <h3 className="vertical-timeline-element-title">
-          Account Manager - Xerox
+          Sales Manager - Xerox
         </h3>
-        <p>After a few years in the service industry I was approached by someone who works at a reseller of Xerox in Nova Scotia. They brought me on as an account manager for the Dartmouth
+        <p>After a few years in the service industry I was approached by someone who works at a reseller of Xerox in Nova Scotia. They brought me on as an sales manager for the Dartmouth
             territory.
         </p>
       </VerticalTimelineElement>
@@ -60,11 +60,25 @@ const Timeline = () => {
           I began my education at NSCC for the programming distinction.
         </p>
       </VerticalTimelineElement>
+      
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2020"
+        iconStyle={{ background: "#ff4500", color: "#fff" }}
+        icon={<FaBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Pineapple Bytes
+        </h3>
+        <p>
+          CO-OP with Pineapple Bytes began, primarily as a work from home function doing some scripting and counterpoint plug-ins.
+        </p>
+      </VerticalTimelineElement>
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2021"
-        iconStyle={{ background: "#ff4500", color: "#fff" }}
+        iconStyle={{ background: "#333", color: "#fff" }}
         icon={<FaBriefcase />}
       >
         <h3 className="vertical-timeline-element-title">
@@ -82,13 +96,45 @@ const Timeline = () => {
         icon={<FaBriefcase />}
       >
         <h3 className="vertical-timeline-element-title">
-          Pineapple Bytes - Junior developer & Analyst
+          Pineapple Bytes - Junior developer / Analyst
         </h3>
         <p>
-          I was initially hired as an Analyst out of school by Pineapple Bytes who made me a developer. I worked on integrations with Aloha and Counterpoint. I built different
+          I was initially hired as an developer while in NSCC, after successfully completing my Co-Op with Pineapple Bytes. I worked on integrations with Aloha and Counterpoint. I built different
           plugins that ran reports on their databases, customer reset functions, and general efficiency improvements through scripting and automation.
         </p>
       </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2022"
+        iconStyle={{ background: "#333", color: "#fff" }}
+        icon={<FaBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Dymaxion - Technical Analyst II
+        </h3>
+        <p>
+          After my time with Pineapple Bytes, I was brought on as a Technical Analyst for Dymaxion and within the year was promoted to
+          Senior TA II. In this role I spent some time developing scripting and automation functions but the majority of my work was project
+          based where I would interact with our clients, discern their needs, then create and help fulfill whatever the project may be.
+        </p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="2024"
+        iconStyle={{ background: "#333", color: "#fff" }}
+        icon={<FaBriefcase />}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Nautel LTD. - Technical Support Specialist
+        </h3>
+        <p>
+          I was hired by Nautel in February of 2024, where I work as a support specialist helping our internal client base. The position
+          is very robust, ranging from helping someone with a printer, to leading projects that can have massive financial impact on a multi-million dollar company.
+        </p>
+      </VerticalTimelineElement>
+
     </VerticalTimeline>
   );
 };

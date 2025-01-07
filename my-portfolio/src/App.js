@@ -93,15 +93,15 @@ function App() {
               </div>
               <section id="career-timeline">
                 <h2>My Career Timeline</h2>
+                <div className='timeline-wrapper'>
                 <Timeline />
-              </section>     
-          </div>
-          </main>
-
-
-            <footer className="footer">
+                </div>
+              </section>  
+              <footer className="footer">
               <p>© 2024 Mitchell Tubrett | All Rights Reserved</p>
-            </footer>
+          </footer>     
+          </div>        
+          </main>
     </div>         
   );
 }
