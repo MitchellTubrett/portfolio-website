@@ -6,6 +6,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaGraduationCap, FaBriefcase } from "react-icons/fa"; // Import icons
 
+
+
 const Timeline = () => {
   return (
     <VerticalTimeline>
