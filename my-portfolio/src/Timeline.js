@@ -134,7 +134,6 @@ const Timeline = () => {
           is very robust, ranging from helping someone with a printer, to leading projects that can have massive financial impact on a multi-million dollar company.
         </p>
       </VerticalTimelineElement>
-
     </VerticalTimeline>
   );
 };

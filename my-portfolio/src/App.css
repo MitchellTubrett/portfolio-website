@@ -39,11 +39,13 @@ main {
 #career-timeline {
   margin-bottom: 50px;
   background-color: #f0f0f0;
+
 }
 
 .timeline-wrapper {
-  max-height: 100%; /* Grows only as needed */
-  overflow: auto;
+  max-height: calc(100vh - 200px);  /* Adjust based on the desired height */
+  overflow-y: auto; /* Allows scrolling if the timeline exceeds max height */
+
 }
 
 #career-timeline h2 {
@@ -66,6 +68,7 @@ main {
   font-size: 14px;
   clear: both;
 }
+
 
 /* Page Content */
 .page-content {
@@ -92,13 +95,14 @@ main {
   margin-top: 20px;
   margin-left: -8px;
   font-family: sans-serif;
+  justify-content: center;
 }
 
 .profile-image-text {
   color: #fff;
   font-family: sans-serif;
   justify-content: center;
-  margin-left: 90px;
+  margin-left: 10px;
   font-size: 24px;
 }
 
@@ -184,3 +188,4 @@ main {
     transform: rotate(360deg);
   }
 }
+
