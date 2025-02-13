@@ -1,0 +1,165 @@
+.App {
+
+}
+.background-content{
+  background-image: url('D:\Projects\portfolio-website\my-portfolio\src\assets\images\Cb1.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Ensures the image doesn’t repeat */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #d9dce2; /* Dark background */
+  color:#574e4e;
+  text-align: center; /* Center the text */
+  padding: 20px 0; /* Add padding */
+  position: relative; /* Ensure it's positioned after the content */
+  bottom: 0;
+  width: 100%;
+  font-size: 14px; /* Font size for footer */
+  justify-content: space-between;
+  /*font-weight: bold;*/
+  font-family:sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-content {
+  background-color: white;
+  padding: 40px;
+  height: 100vh;
+  font-family:sans-serif;
+}
+
+.profile-image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the image */
+  z-index: 10; /* Ensure the image is above the background */
+}
+
+
+.profile-image-text {
+  color: #fff;
+  font-family:sans-serif;
+  justify-content: center;
+  margin-left: 90px;
+  font-size: 24px;
+  
+}
+
+.profile-image-name {
+  color:#fff;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: -8px;
+  font-family:sans-serif;
+}
+
+
+.portfolio-bar {
+  position: fixed; /* Fixes the element in place */
+  top: 0; /* Positions it at the top of the page */
+  left: 0; /* Aligns it to the left edge of the page */
+  width: 100%; /* Ensures the bar spans the full width of the viewport */
+  background-color: #fff; /* Background color (optional, based on your design) */
+  z-index: 1000; /* Ensures the bar stays on top of other content */
+  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+  padding: 10px;
+  display: flex;
+  background-color: #d9dce2;
+  font-size: 24px;
+  align-items: center;
+  text-align: left; /* Aligns the text to the left */
+  color:#574e4e;  
+  justify-content: space-between;
+  font-family:sans-serif;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  background-color: transparent; /* Initially transparent */
+  z-index: 1000;
+  color: white; /* White text when transparent */
+  color: transparent;
+}
+
+.portfolio-bar p {
+  margin: 0; /* Removes any default margins from the <p> tag */
+  display: flex;
+  gap: 10px;
+}
+
+.portfolio-bar.scrolled {
+  background-color: #d9dce2; /* Dark bar when scrolled */
+  color: black; /* Change text to black when scrolled */
+}
+
+.social-icons {
+  padding: 10px 20px;
+  font-size: 24px;
+  display: flex;
+  gap: 20px; /* Adds spacing between icons */
+}
+
+.social-icons-two {
+  padding: 10px 20px;
+  font-size: 80px;
+  margin-left: 100px;
+  display: flex;
+  gap: 20px; /* Adds spacing between icons */
+  color: white;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.social-icons-two a:visited {
+  color: white; /* Ensures visited links remain white */
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: inherit; /* Ensures the links have no underline and inherit color */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #113e99;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page-content {
+  background-color: white;
+  height: 100vh; /* Example height for scrollable content */
+  padding: 20px;
+}
