@@ -52,7 +52,7 @@ const Timeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2019"
-        iconStyle={{ background: "#ff4500", color: "#fff" }}
+        iconStyle={{ background: "#333", color: "#fff" }}
         icon={<FaGraduationCap />}
       >
         <h3 className="vertical-timeline-element-title">
@@ -81,7 +81,7 @@ const Timeline = () => {
         className="vertical-timeline-element--work"
         date="2021"
         iconStyle={{ background: "#333", color: "#fff" }}
-        icon={<FaBriefcase />}
+        icon={<FaGraduationCap />}
       >
         <h3 className="vertical-timeline-element-title">
           NSCC
@@ -109,7 +109,7 @@ const Timeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2022"
-        iconStyle={{ background: "#333", color: "#fff" }}
+        iconStyle={{ background: "#4B0082", color: "#fff" }}
         icon={<FaBriefcase />}
       >
         <h3 className="vertical-timeline-element-title">
@@ -125,7 +125,7 @@ const Timeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2024"
-        iconStyle={{ background: "#333", color: "#fff" }}
+        iconStyle={{ background: "#0056A4", color: "#fff" }}
         icon={<FaBriefcase />}
       >
         <h3 className="vertical-timeline-element-title">

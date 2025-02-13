@@ -37,6 +37,15 @@ function App() {
     };
   }, []);
 
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      const offset = 80;
+      const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top: sectionPosition, behavior: 'smooth' });
+    }
+  };
+
 
   return (
     <div className="App">
@@ -49,9 +58,9 @@ function App() {
           
             <div className="social-icons">
               <a href="about-section">Home</a> 
-              <a href="about-section">About</a> 
-              <a href="about-section">Timeline</a>
-              <a href="about-section">CV</a>
+              <a onClick={() => scrollToSection('about-section')}>About</a>  
+              <a onClick={() => scrollToSection('career-timeline')}>Timeline</a>
+              <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
               <a href="about-section">Contact</a>            
               <a href={linkedIn_link} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} />
@@ -81,9 +90,10 @@ function App() {
           
         </div>  
         <div className="page-content">
-              <div className="about-section">
+              <div id="about-section" className="about-section">
                 <h1>Hey there,</h1>
                 <p>
+
                   I'm Mitch. A computer enthusiast, avid fantasy book reader, enjoyer of video games, and guitar player who has an insatiable desire for continued learning. I finished up
                   my education back in 2021 and have been in the tech field now for about 4 years (5 If you consider my co op experience, which I do). I've spent time in both development
                   and analyst positions with a wide variety of expertise and exposure to different technologies. Below here you'll see a timeline of my professional career, my CV,
