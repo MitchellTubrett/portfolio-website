@@ -69,6 +69,15 @@ main {
   clear: both;
 }
 
+.flipbook-container {
+  overflow: visible !important;
+}
+
+.about-section {
+  overflow: visible !important;
+}
+
+
 
 /* Page Content */
 .page-content {

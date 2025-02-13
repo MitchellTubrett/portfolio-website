@@ -10,6 +10,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 import Timeline from './Timeline';
+import Flipbook from "./Flipbook";
 
 
 
@@ -90,17 +91,9 @@ function App() {
           
         </div>  
         <div className="page-content">
-              <div id="about-section" className="about-section">
-                <h1>Hey there,</h1>
-                <p>
-
-                  I'm Mitch. A computer enthusiast, avid fantasy book reader, enjoyer of video games, and guitar player who has an insatiable desire for continued learning. I finished up
-                  my education back in 2021 and have been in the tech field now for about 4 years (5 If you consider my co op experience, which I do). I've spent time in both development
-                  and analyst positions with a wide variety of expertise and exposure to different technologies. Below here you'll see a timeline of my professional career, my CV,
-                  completed and upcoming projects. If you want to chat about potential opportunities for work, inquire about my projects or just reach out to ask me some questions
-                  you can find me through my LinkedIn page, or through the contact me portion of this site.
-                </p>
-              </div>
+          <div className="flipbook-wrapper">
+            <Flipbook />
+           </div>
               <section id="career-timeline">
                 <h2>My Career Timeline</h2>
                 <div className='timeline-wrapper'>
